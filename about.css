@@ -82,14 +82,23 @@ body{
       background-color: rgba(255, 255, 255, 0.1);
     }
 
-    /* Title image */
-    .title {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-top: 10px;
+    .topic{
+        text-align: center;
+        
     }
+    .about{
+        background-color: yellow;
+    }
+.desc{
+    line-height: 2;
+}
+
+
+
+
+
+
+
 
     /* Tablet styles (768px+) */
     @media screen and (min-width: 768px) {
@@ -128,9 +137,7 @@ body{
         background-color: rgba(255, 255, 255, 0.2);
       }
 
-      .title {
-        margin-top: 20px;
-      }
+      
     }
 
     /* Desktop styles (1024px+) */
@@ -152,9 +159,7 @@ body{
         padding: 12px 20px;
       }
 
-      .title {
-        margin-top: 30px;
-      }
+     
     }
 
     /* Large Desktop styles (1200px+) */

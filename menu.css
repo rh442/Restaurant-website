@@ -52,6 +52,13 @@ body{
     z-index: 999;
     
 }
+.options a:link{
+  color:yellow;
+  text-decoration: none;
+}
+.options a:visited{
+  color:yellow
+}
  .options.active {
       display: flex;
     }
@@ -63,7 +70,7 @@ body{
    
 
 .options li h2 {
-      color: white;
+      color: yellow;
       padding: 15px 20px;
       margin: 0;
       font-size: 18px;
