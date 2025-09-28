@@ -10,3 +10,13 @@ menuToggle.addEventListener("click", () => {
 });
 
 
+
+const success = document.querySelector(".success");
+const submit_button = document.querySelector(".submit")
+
+submit_button.addEventListener("click", () => {
+   success.style.display="block";
+   setTimeout(() => {
+    success.style.display = "none";
+  }, 10000);
+});
