@@ -1,7 +1,10 @@
 body{
     margin:0px;
     padding: 0px;
-    background-color: red;
+     background-color: yellow;
+    background-image: url("img/bg_pattern.jpg");
+    background-repeat: repeat;
+    background-size: cover; /* make it cover the entire element */
 }
 
 * {
@@ -18,7 +21,8 @@ body{
     padding: 15px 20px;
     background-color: red;
     position: relative;
-    width:100%
+    width:100%;
+    border-bottom: 5px solid darkred;
 }
 
 .burger_logo{
@@ -82,9 +86,12 @@ body{
       background-color: rgba(255, 255, 255, 0.1);
     }
    .topic{
+        margin: 10px auto; 
+        width:50%;
         text-align: center;
-        margin-bottom: 10px;
-        
+        border-radius: 50px;
+        background-color: yellow;  
+        margin-bottom: 50px;
         
     }
   .map{
@@ -181,6 +188,11 @@ body{
 
       .options li h2:hover {
         background-color: rgba(255, 255, 255, 0.2);
+      }
+      .topic{
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
       .gmap{
         height: 200px;
